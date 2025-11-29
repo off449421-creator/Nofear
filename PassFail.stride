@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class name="PassFail" enable="true" strideversion="1">
+    <javadoc xml:space="preserve"/>
+    <imports>
+        <import target="java.util.Scanner" enable="true"/>
+    </imports>
+    <implements/>
+    <fields/>
+    <constructors/>
+    <methods>
+        <method access="public" static="true" type="void" type-java="void" name="main" enable="true">
+            <javadoc xml:space="preserve"/>
+            <params>
+                <params type="String[]" type-java="String[]" name="args"/>
+            </params>
+            <throws/>
+            <body>
+                <variable type="Scanner" type-java="Scanner" name="sc" value="new Scanner ( System . in )" value-java="new Scanner ( System . in )" enable="true"/>
+                <call expression="System . out . print ( &quot;Enter marks: &quot; )" expression-java="System . out . print ( &quot;Enter marks: &quot; )" enable="true"/>
+                <variable type="int" type-java="int" name="marks" value="sc . nextInt ( )" value-java="sc . nextInt ( )" enable="true"/>
+                <if condition="marks &gt;= 40" condition-java="marks &gt;= 40" enable="true">
+                    <ifStatements>
+                        <call expression="System . out . println ( &quot;Student has Passed.&quot; )" expression-java="System . out . println ( &quot;Student has Passed.&quot; )" enable="true"/>
+                    </ifStatements>
+                    <else>
+                        <call expression="System . out . println ( &quot;Student has Failed.&quot; )" expression-java="System . out . println ( &quot;Student has Failed.&quot; )" enable="true"/>
+                    </else>
+                </if>
+            </body>
+        </method>
+    </methods>
+</class>
