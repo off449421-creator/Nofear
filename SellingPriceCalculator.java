@@ -29,10 +29,10 @@ public class SellingPriceCalculator {
             return; 
         }
 
-        // Step 4: Calculate selling price
+        
         sp = mp - (mp * discount);
 
-        // Step 5: Display result
+        
         System.out.println("Selling Price = " + sp);
     }
 }
