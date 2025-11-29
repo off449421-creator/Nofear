@@ -1,8 +1,8 @@
 #BlueJ package file
-editor.fx.0.height=0
-editor.fx.0.width=0
-editor.fx.0.x=0
-editor.fx.0.y=0
+editor.fx.0.height=737
+editor.fx.0.width=814
+editor.fx.0.x=816
+editor.fx.0.y=596
 objectbench.height=313
 objectbench.width=742
 package.divider.horizontal=0.6
@@ -98,8 +98,8 @@ target19.name=PassFail
 target19.showInterface=false
 target19.type=ClassTarget
 target19.width=120
-target19.x=10
-target19.y=180
+target19.x=310
+target19.y=280
 target2.height=70
 target2.name=xy
 target2.showInterface=false
